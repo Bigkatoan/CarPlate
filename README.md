@@ -32,3 +32,11 @@ run jupyter
 ```
 jupyter-lab
 ```
+
+# Fix Issue.
+
+if you run on windows or not working put this line in head.
+```
+import os
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
+```
